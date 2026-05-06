@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium artisan cakes handcrafted with the finest ingredients. Custom designs for weddings, celebrations, and special occasions.">
+    <title>Hikmah Cakes | Premium Artisan Bakery</title>
+    <link rel="stylesheet" href="style.css">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Simple Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-content">
+            <span><i class="fas fa-birthday-cake"></i> Handcrafted Premium Cakes</span>
+            <span>|</span>
+            <span><i class="fas fa-map-marker-alt"></i>  Kampala, Uganda</span>
+        </div>
+    </div>
+
+    <!-- Header & Logo -->
+    <header class="main-header">
+        <div class="header-wrapper">
+            <div class="logo-main">
+                <h1>HIKMAH</h1>
+                <p>ARTISAN CAKES</p>
+            </div>
+            <nav role="navigation" aria-label="Main navigation" class="nav-main">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul id="nav-menu">
+                    <li><a href="index.html" class="active">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>                   
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Image -->
+    <section class="hero-main">
+        <div class="hero-overlay"></div>
+        <div class="hero-text">
+            <span class="hero-label">Celebrate Every Moment</span>
+            <h2>Exquisite Cakes for Your</h2>
+            <h2>Most Special Occasions</h2>
+            <p>Handcrafted with premium ingredients and artistic passion</p>
+            <div class="hero-buttons">
+                <a href="menu.html" class="btn btn-dark">View Our Cakes</a>
+                <a href="contact.html" class="btn btn-outline">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fas fa-palette"></i></div>
+                <h3>Custom Design</h3>
+                <p>Your vision, our creation. Fully customized designs for your perfect cake.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fas fa-star"></i></div>
+                <h3>Premium Quality</h3>
+                <p>Only the finest imported ingredients and traditional baking methods.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fas fa-truck"></i></div>
+                <h3>Quick Delivery</h3>
+                <p>Fresh, beautiful cakes delivered on time for your special day.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fas fa-check"></i></div>
+                <h3>Guaranteed Fresh</h3>
+                <p>Never preserved. Baked fresh daily with love and precision.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Sellers Section -->
+    <section class="bestsellers">
+        <div class="section-header">
+            <span class="section-label">CUSTOMER FAVORITES</span>
+            <h2>Best-Selling Flavors</h2>
+            <p>Our most loved creations</p>
+        </div>
+        <div class="products-grid">
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="images/chocolate-cake.jpg" alt="Chocolate Heaven">
+                    <span class="price-badge">$15</span>
+                </div>
+                <div class="product-info">
+                    <h3>Chocolate Heaven</h3>
+                    <p>Rich dark chocolate with Belgian ganache and silky frosting</p>
+                    <div class="rating">★★★★★ (248)</div>
+                    <a href="contact.html" class="product-btn">Order Now</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="images/strawberry-cake.jpg" alt="Strawberry Cream">
+                    <span class="price-badge">$18</span>
+                </div>
+                <div class="product-info">
+                    <h3>Strawberry Cream</h3>
+                    <p>Light vanilla sponge with fresh strawberries and whipped cream</p>
+                    <div class="rating">★★★★★ (186)</div>
+                    <a href="contact.html" class="product-btn">Order Now</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="images/redvelvet.jpg" alt="Red Velvet">
+                    <span class="price-badge">$20</span>
+                </div>
+                <div class="product-info">
+                    <h3>Red Velvet Classic</h3>
+                    <p>Vintage favorite with smooth cream cheese frosting</p>
+                    <div class="rating">★★★★★ (325)</div>
+                    <a href="contact.html" class="product-btn">Order Now</a>
+                </div>
+            </article>
+        </div>
+        <div class="section-cta">
+            <a href="menu.html" class="btn btn-dark">See Full Menu</a>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="why-content">
+            <div class="why-text">
+                <span class="section-label">WHY CHOOSE US</span>
+                <h2>The Hikmah Difference</h2>
+                <ul class="features-list">
+                    <li>✓ Premium quality ingredients sourced globally</li>
+                    <li>✓ Award-winning master bakers with 15+ years experience</li>
+                    <li>✓ Custom designs for all occasions & celebrations</li>
+                    <li>✓ Same-day delivery available in Kampala</li>
+                    <li>✓ 100% fresh guarantee - no preservatives ever</li>
+                    <li>✓ Friendly customer service & consultation included</li>
+                </ul>
+                <a href="about.html" class="btn btn-dark">Learn Our Story</a>
+            </div>
+            <div class="why-image">
+                <img src="images/karina-kungla-aZp6Gya7pUQ-unsplash.jpg" alt="Premium Cake">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="section-header">
+            <span class="section-label">WHAT OUR CUSTOMERS SAY</span>
+            <h2>Happy Customers</h2>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Absolutely stunning! The cake was as beautiful as it was delicious. Everyone at the wedding couldn't stop talking about it!"</p>
+                <strong>Sophia N.</strong>
+                <span>Wedding Celebration</span>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Best chocolate cake I've ever had. Fresh, moist, and the flavor is incredible. Will definitely order again!"</p>
+                <strong>Marvin K.</strong>
+                <span>Birthday Party</span>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"The team was so helpful with my custom design. They turned my idea into reality and delivered on time. Highly recommended!"</p>
+                <strong>Sulait K.</strong>
+                <span>Custom Order</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <h2>Ready to Order?</h2>
+        <p>Create an unforgettable experience for your next celebration</p>
+        <a href="contact.html" class="btn btn-secondary">Start Your Order</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="footer-col">
+                <h4>HIKMAH CAKES</h4>
+                <p>Premium artisan bakery delivering handcrafted excellence since day one.</p>
+                <div class="social-links">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>CONTACT INFO</h4>
+                <p><i class="fas fa-phone"></i> +256 753 633 300</p>
+                <p><i class="fas fa-envelope"></i> hikmahcakes@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i>  Kampala, Uganda</p>
+            </div>
+            <div class="footer-col">
+                <h4>BUSINESS HOURS</h4>
+                <p>Mon - Fri: 9:00 AM - 7:00 PM</p>
+                <p>Sat: 10:00 AM - 6:00 PM</p>
+                <p>Sun: Closed</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Hikmah Cakes. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="nav.js"></script>
+</body>
+</html>
+
+

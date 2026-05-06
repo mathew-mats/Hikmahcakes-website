@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our premium collection of artisan cakes. Custom designs available for all occasions.">
+    <title>Menu | Hikmah Cakes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-content">
+            <span><i class="fas fa-birthday-cake"></i> Premium Artisan Cakes for Every Occasion</span>
+            <span><i class="fas fa-phone"></i> Available for Custom Orders</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-wrapper">
+            <div class="logo-main">
+                <h1>HIKMAH</h1>
+                <p>Artisan Cakes</p>
+            </div>
+            <nav class="nav-main">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-main" style="min-height: 500px;">
+        <div class="hero-overlay"></div>
+        <div class="hero-text">
+            <div class="hero-label">Signature Collection</div>
+            <h2>Our Premium Menu</h2>
+            <p>Handcrafted artisan cakes made with the finest ingredients from around the world</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Menu Intro -->
+        <section style="padding: 60px 20px; background: white; text-align: center;">
+            <div style="max-width: 800px; margin: 0 auto;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 2em; color: #2c1810; margin-bottom: 15px;">Signature Creations</h3>
+                <p style="color: #888; font-size: 1.05em;">Each cake is a masterpiece, crafted with love and premium ingredients. Available for immediate delivery or custom orders.</p>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section style="padding: 60px 20px; background: #f9f9f9;">
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/chocolate-cake.jpg" alt="Chocolate Heaven">
+                        <div class="price-badge">$15</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Chocolate Heaven</h3>
+                        <p>Rich, moist chocolate cake topped with Belgian ganache and cocoa dust</p>
+                        <span class="rating">★★★★★ (128 reviews)</span>
+                        <a href="contact.html" class="product-btn">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/strawberry-cake.jpg" alt="Strawberry Bliss">
+                        <div class="price-badge">$18</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Strawberry Bliss</h3>
+                        <p>Fluffy vanilla layers with fresh strawberry cream and whipped frosting</p>
+                        <span class="rating">★★★★★ (156 reviews)</span>
+                        <a href="contact.html" class="product-btn">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/redvelvet.jpg" alt="Red Velvet Classic">
+                        <div class="price-badge">$20</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Red Velvet Classic</h3>
+                        <p>Soft red velvet layers with premium cream cheese frosting and edible pearls</p>
+                        <span class="rating">★★★★★ (203 reviews)</span>
+                        <a href="contact.html" class="product-btn">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Greenvelt.jpg" alt="Green Velvet">
+                        <div class="price-badge">$20</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Green Velvet Elegance</h3>
+                        <p>Sophisticated green velvet with smooth cream cheese frosting and gold leaf</p>
+                        <span class="rating">★★★★★ (89 reviews)</span>
+                        <a href="contact.html" class="product-btn">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Lovecake.jpg" alt="Love Cake">
+                        <div class="price-badge">$18</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Love Cake</h3>
+                        <p>Romantic vanilla layers with fresh strawberry jam and delicate pink frosting</p>
+                        <span class="rating">★★★★★ (142 reviews)</span>
+                        <a href="contact.html" class="product-btn">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/young elephant.jpg" alt="Celebration Cake">
+                        <div class="price-badge">$22</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Celebration Cake</h3>
+                        <p>Festive design with custom flavors and personalized decorations available</p>
+                        <span class="rating">★★★★★ (196 reviews)</span>
+                        <a href="contact.html" class="product-btn">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Custom Orders CTA -->
+        <section style="padding: 80px 20px; background: white; text-align: center;">
+            <div style="max-width: 800px; margin: 0 auto;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 2em; color: #2c1810; margin-bottom: 15px;">Custom Orders Welcome</h3>
+                <p style="color: #666; font-size: 1.05em; margin-bottom: 30px;">Don't see what you're looking for? We create fully customized cakes for weddings, birthdays, anniversaries, and special events. Contact us to discuss your vision.</p>
+                <a href="contact.html" class="btn btn-dark">Request Custom Design</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="footer-col">
+                <h4>Hikmah Cakes</h4>
+                <p>Premium artisan bakery crafting unforgettable moments through exceptional cake design and taste.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get In Touch</h4>
+                <p><i class="fas fa-envelope"></i> hikmahcakes@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i>  Kampala, Uganda</p>
+                <div class="social-links">
+                    <a href="#">f</a>
+                    <a href="#">i</a>
+                    <a href="#">w</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Hours</h4>
+                <p>Monday - Friday: 9am - 6pm</p>
+                <p>Saturday: 10am - 5pm</p>
+                <p>Sunday: Closed</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Hikmah Cakes. All rights reserved. Handcrafted in Kampala, Uganda.</p>
+        </div>
+    </footer>
+
+    <script src="nav.js"></script>
+</body>
+</html>
